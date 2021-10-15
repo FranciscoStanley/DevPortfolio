@@ -1,5 +1,6 @@
 body{
     background: rgba(211, 203, 203, 0.541);
+    background-image: url(/img/python-programming-syntax.jpg);
 }
 
 .foto_perfil{
@@ -13,7 +14,7 @@ img.foto_perfil {
 }
 
 #title, .subtitle, .pos_title, .infor-formacao, .infor-experiencias, .infor-certifcacoes{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -38,4 +39,8 @@ img.foto_perfil {
 
 .post_image{
     margin-bottom: 15px;
+}
+
+.urls{
+    color: aliceblue;
 }
