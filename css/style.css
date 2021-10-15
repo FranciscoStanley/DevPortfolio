@@ -1,10 +1,14 @@
 body{
     background: rgba(211, 203, 203, 0.541);
-    background-image: url(/img/python-programming-syntax.jpg);
+    background-image: url(/img/black.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+
 }
 
 .foto_perfil{
-    border: 2px solid grey;
+    border: 2px solid white;
     border-radius: 50%; 
 }
 img.foto_perfil {
@@ -12,10 +16,31 @@ img.foto_perfil {
     margin-left: auto;
     margin-right: auto 
 }
-
-#title, .subtitle, .pos_title, .infor-formacao, .infor-experiencias, .infor-certifcacoes{
-    color: rgb(255, 255, 255);
+a{
+    text-decoration: line-through;
+    color: #505050;    
+}
+#title{
+    font-size: 40px;
+}
+#title, .subtitle, .pos_title{
+    color:  lightblue;
     text-align: center;
+}
+
+.infor-formacao, .infor-experiencias, .infor-certificacoes, lu li{
+    color:  black;
+    text-align: center;
+}
+
+.li-separada{
+    text-align: justify;
+}
+
+.lu-certificacoes{
+    text-align: justify;
+    list-style:none;
+    list-style-type:none;
 }
 
 .pos_title{
@@ -26,7 +51,7 @@ img.foto_perfil {
 }
 
 .post{
-    background: white;
+    background: rgb(216, 216, 216);
     padding: 15px;
     border: 3px solid black;
     border-radius: 5px;
@@ -35,12 +60,22 @@ img.foto_perfil {
 .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image{
     margin-bottom: 15px;
+    width: 100%;
 }
 
-.urls{
-    color: aliceblue;
+.contacts_list, li a{
+    color: lightblue;
+    list-style-type: none;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.contacts_list, h4{
+    text-align: center;
 }
