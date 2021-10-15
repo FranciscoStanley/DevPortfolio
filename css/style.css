@@ -1,5 +1,5 @@
 body{
-    background: rgba(128, 128, 128, 0.541);
+    background: rgba(211, 203, 203, 0.541);
 }
 
 #title, .subtitle, .pos_title{
@@ -9,10 +9,21 @@ body{
 .pos_title{
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post{
     background: white;
     padding: 10px;
     border: 3px solid black;
+    margin-bottom: 15px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image{
+    margin-bottom: 15px;
 }
